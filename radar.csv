@@ -17,6 +17,6 @@ Nucleon consists of some components that are built on top of other tools and ser
 New Relic,Adopt,Platform,No,"Platform for monitoring application performance (APM), availability, and much more."
 Datadog,Assess,Platform,Yes,CORE is currently evaluating Datadog as a replacement for New Relic
 Log Entries/Rapid7,Hold,Platform,No,"LogEntries is a SaaS for logging. <b>We don't have a contract with them anymore, and using is is a legal and security liability.</b>"
-Cloudwatch Logs,Adopt,,,
+Cloudwatch Logs,Adopt,Platform,No,"Cloudwatch Logs, the AWS native logging platform, should only be used in legacy services not migrated to Nucleon yet"
 Confluence,Adopt,Others,No,"<a href=""https://creditas.atlassian.net/wiki/spaces/PT/overview"">Confluence</a> is our wiki and knowledge base"
 Kotlin,Adopt,Language,No,Kotlin is the main programming language used in Creditas

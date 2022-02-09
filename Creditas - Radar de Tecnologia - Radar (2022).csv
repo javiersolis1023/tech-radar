@@ -16,3 +16,5 @@ IntelliJ,Adopt,Dev Tools,Yes,"IntelliJ IDEA is a Java IDE from JetBrains with bo
 PyCharm,Adopt,Dev Tools,No,"PyCharm is a Python IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Professional Edition licenses file a ticket to Service Desk."
 WebStorm,Adopt,Dev Tools,No,"WebStorm is a commercial Javascript IDE from JetBrains. To request a licenses, file a ticket to Service Desk."
 DataGrip,Adopt,Dev Tools,No,"DataGrip is a commercial database IDE from JetBrains. To request a licenses, file a ticket to Service Desk."
+Kotlin,Adopt,Language,No,Kotlin is the main programming language used in Creditas
+Confluence,Adopt,Others,No,Confluence is our wiki

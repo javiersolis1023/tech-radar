@@ -1,0 +1,18 @@
+name,ring,quadrant,isNew,description
+SonarCloud,Adopt,Dev Tools,Yes,"Static Code Analysis tool for detecting ""code smells"", preventing bugs, security issues, etc."
+,,,,
+Backstage,Adopt,Platform,Yes,"Backstage is a platform for building developer portals, and it's the base for our Developer Hub: https://developerhub.creditas.io/"
+CircleCI,Adopt,Platform,Yes,CircleCI is the standard Continuous Integration platform at Creditas.
+GitHub Actions,Assess,Platform,Yes,GitHub Actions is a Continuous Integration platform native to GitHub.
+Nucleon,Adopt,Platform,No,"Nucleon is Creditas' PaaS, and its main objective is to enable developers to focus on solving business needs instead of managing infrastructure.
+Nucleon consists of some components that are built on top of other tools and services, like Terraform and Kubernetes."
+New Relic,Adopt,Platform,No,"Platform for monitoring application performance (APM), availability, and much more."
+Datadog,Assess,Platform,Yes,CORE is currently evaluating Datadog as a replacement for New Relic
+Log Entries/Rapid7,Hold,Platform,No,"LogEntries is a SaaS for logging. We don't have a contract with them anymore, and using is is a legal and security liability."
+,,,,
+,,,,
+JFrog/Artifactory,Adopt,Dev Tools,No,"JFrog (formerly Artifactory) is a SaaS for hosting development artifacts like JARs, Ruby gems and Python packages developed internally by Creditas"
+IntelliJ,Adopt,Dev Tools,Yes,"IntelliJ IDEA is a Java IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Ultimate Edition licenses file a ticket to Service Desk."
+PyCharm,Adopt,Dev Tools,No,"PyCharm is a Python IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Professional Edition licenses file a ticket to Service Desk."
+WebStorm,Adopt,Dev Tools,No,"WebStorm is a commercial Javascript IDE from JetBrains. To request a licenses, file a ticket to Service Desk."
+DataGrip,Adopt,Dev Tools,No,"DataGrip is a commercial database IDE from JetBrains. To request a licenses, file a ticket to Service Desk."

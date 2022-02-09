@@ -1,7 +1,7 @@
 name,ring,quadrant,isNew,description
 SonarCloud,Adopt,Dev Tools,Yes,"Static Code Analysis tool for detecting ""code smells"", preventing bugs, security issues, etc."
 JFrog/Artifactory,Adopt,Dev Tools,No,"<a href=""https://creditas.jfrog.io"">JFrog</a> (formerly Artifactory) is a SaaS for hosting development artifacts like JARs, Ruby gems and Python packages developed internally by Creditas"
-IntelliJ,Adopt,Dev Tools,Yes,"<a href=""https://www.jetbrains.com/idea/"">IntelliJ IDEA</a> is a Java IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Ultimate Edition licenses file a ticket to Service Desk."
+IntelliJ IDEA,Adopt,Dev Tools,Yes,"<a href=""https://www.jetbrains.com/idea/"">IntelliJ IDEA</a> is a Java IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Ultimate Edition licenses file a ticket to Service Desk."
 PyCharm,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/pycharm/"">PyCharm</a> is a Python IDE from JetBrains with both free and commercial licenses. The Community Edition can be used free of charge, for Professional Edition licenses file a ticket to Service Desk."
 WebStorm,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/webstorm/"">WebStorm</a> is a <strong>commercial</strong> Javascript IDE from JetBrains. To request a license, file a ticket to Service Desk."
 DataGrip,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/datagrip/"">DataGrip</a> is a <strong>commercial</strong> database IDE from JetBrains. To request a licenses, file a ticket to Service Desk."
@@ -10,7 +10,7 @@ Backstage,Adopt,Platform,Yes,"Backstage is a platform for building developer por
 CircleCI,Adopt,Platform,Yes,CircleCI is the standard Continuous Integration platform at Creditas.
 GitHub,Adopt,Platform,No,"<a href=""GitHub"">https://github.com/creditas</a> is our source control platform"
 GitHub Actions,Trial,Platform,Yes,GitHub Actions is a Continuous Integration platform native to GitHub.
-Kong,Adopt,Platform,No,"<a href=""Kong"">https://github.com/Creditas/kong</a> is our API Gateway, responsible for exposing Creditas' APIs to the internet"
+Kong API Gateway,Adopt,Platform,No,"<a href=""https://github.com/Creditas/kong"">Kong</a> is our API Gateway, responsible for exposing Creditas' APIs to the internet"
 AWS API Gateway,Hold,Platform,No,"AWS API Gateway was used prior to adopting Kong, but it has shown to be too limited and complex"
 Nucleon,Adopt,Platform,No,"<b><a href=""https://github.com/Creditas/nucleon"">Nucleon</a></b> is Creditas' PaaS, and its main objective is to enable developers to focus on solving business needs instead of managing infrastructure.
 Nucleon consists of some components that are built on top of other tools and services, like Terraform and Kubernetes."

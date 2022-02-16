@@ -6,6 +6,8 @@ PyCharm,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/pycharm/"">PyCha
 WebStorm,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/webstorm/"">WebStorm</a> is a <strong>commercial</strong> Javascript IDE from JetBrains. To request a license, file a ticket to Service Desk."
 DataGrip,Adopt,Dev Tools,No,"<a href=""https://www.jetbrains.com/datagrip/"">DataGrip</a> is a <strong>commercial</strong> database IDE from JetBrains. To request a licenses, file a ticket to Service Desk."
 cliditas,Adopt,Dev Tools,No,"<b><code><a href=""https://github.com/creditas/cliditas"">cliditas</a></code></b> is a CLI to manage application deployments on Creditas software development platform environments in Nucleon."
+Sentry,Adopt,Dev Tools,No,"<a href=""https://sentry.io/auth/login/creditas-zb/"">Sentry</a> is Application monitoring and error tracking, heavily used by Mobile team, and also by other teams"
+Rollbar,Hold,Dev Tools,No,Rollbar is an error tracking service which was replaced by Sentry
 Backstage,Adopt,Platform,Yes,"Backstage is a platform for building developer portals, and it's the base for our <a href=""https://developerhub.creditas.io/"">Developer Hub</a>"
 CircleCI,Adopt,Platform,Yes,CircleCI is the standard Continuous Integration platform at Creditas.
 GitHub,Adopt,Platform,No,"<a href=""GitHub"">https://github.com/creditas</a> is our source control platform"
@@ -18,5 +20,66 @@ New Relic,Adopt,Platform,No,"Platform for monitoring application performance (AP
 Datadog,Assess,Platform,Yes,CORE is currently evaluating Datadog as a replacement for New Relic
 Log Entries/Rapid7,Hold,Platform,No,"LogEntries is a SaaS for logging. <b>We don't have a contract with them anymore, and using is is a legal and security liability.</b>"
 Cloudwatch Logs,Adopt,Platform,No,"Cloudwatch Logs, the AWS native logging platform, should only be used in legacy services not migrated to Nucleon yet"
-Confluence,Adopt,Others,No,"<a href=""https://creditas.atlassian.net/wiki/spaces/PT/overview"">Confluence</a> is our wiki and knowledge base"
-Kotlin,Adopt,Language,No,Kotlin is the main programming language used in Creditas
+Elixir,Hold,Languages & Frameworks,Yes,Elixir was used by Bcredi developers but we don't recommend new applications or services to be written in Elixir because it doesn't have a large community or tooling support
+Kotlin,Adopt,Languages & Frameworks,No,Kotlin is the main programming language used in Creditas
+Node.js,Trial,Languages & Frameworks,No,
+Sagemaker notebooks,Adopt,Data,Yes,
+MLflow,Adopt,Data,No,
+Python,Adopt,Languages & Frameworks,No,
+Airflow,Adopt,Data,No,"Doc - Airflow is a platform to programmatically author, schedule and monitor workflows."
+Kafka,Adopt,Data,No,
+KSQLDB,Adopt,Data,Yes,
+Kibana,Adopt,Data,Yes,
+Prometheus,Adopt,Data,Yes,
+RDS,Adopt,Data,Yes,
+Neptune,Adopt,Data,Yes,
+Apache Hudi,Adopt,Data,Yes,
+Apache Spark,Adopt,Data,No,
+EMR,Adopt,Data,No,
+Redshift,Adopt,Data,No,
+S3,Adopt,Data,No,
+FEAST,Adopt,Data,Yes,
+scikit-learn,Adopt,Data,No,
+alibi-detect,Adopt,Data,Yes,
+scikit-multiflow,Adopt,Data,Yes,
+LightGBM,Adopt,Data,No,
+Grafana,Adopt,Data,Yes,
+Superset,Hold,Data,No,
+EKS,Adopt,Platform,No,
+React.js,Adopt,Languages & Frameworks,No,The main framework to build frontend applications at Creditas
+React Native,Adopt,Languages & Frameworks,No,The main framework to build mobile applications at Creditas
+GKE,Hold,Platform,Yes,"A Kubernetes service managed by Google Cloud, used on Bcredi's services ecosystem"
+Ambassador,Hold,Platform,Yes,An API Gateway used on Bcredi's services ecosystem
+RabbitMQ,Hold,Platform,Yes,RabbitMQ is an open source message broker used on Bcredi's services ecosystem to communication between services
+KeyCloak,Hold,Platform,Yes,Keycloak is an open source identity and access management solution used on Bcredi's services ecosystem
+Linkerd,Hold,Platform,Yes,"Linkerd is a service mesh for Kubernetes used on Bcredi's services ecosystem to makes running services easier and safer by giving runtime debugging, observability, reliability, and security, all without requiring any changes to the code."
+Google Cloud SQL (PostgreSQL),Hold,Data,Yes,"PostgreSQL database service managed by Google Cloud, used on Bcredi's services ecosystem"
+Sendgrid,Hold,Platform,Yes,"E-mail service provider, it was used on Bcredi's services ecosystem to sends e-mails to customers"
+InfoBip,Hold,Platform,Yes,"SMS service provider, it was used on Bcredi's services ecosystem to sends SMS to customers"
+Salesforce Creditas,Assess,Platform,Yes,Salesforce at Creditas still being implemented
+Salesforce Bcredi,Hold,Platform,Yes,The main backoffice tool for Bcredi operations
+Ruby,Adopt,Languages & Frameworks,No,Core & External Data & Servicing & Authentication & AutoFin Backend systems
+Sidekiq,Adopt,Platform,No,Message system for ruby components. This is default option
+BFF,Adopt,Languages & Frameworks,No,Backend end for frontend. Mobile and backoffice system uses this pattern to call our domain / components apis
+Apollo,Adopt,Languages & Frameworks,No,Framework to implement BFF as GraphQL
+GraphQL,Adopt,Languages & Frameworks,No,Pattern to expose API into a BFF
+RDS - Postgres,Adopt,Data,No,PostgreSQL database service managed by AWS. Used in most of Creditas components
+Mongo Atlas,Adopt,Data,No,Mongo managed database by Atlas service. Used in some components of creditas
+AWS Lambda,Hold,Platform,No,Not supported by Nuclen / Cliditas. Used in most Product Hacking systems.
+Camunda,Adopt,Platform,No,BPMS engine to support statefull workflows.
+Drools,Assess,Platform,Yes,BREs engine to support business rules strategy. It's been assessed by the Store team.
+Opsgenie,Adopt,Platform,No,Incident and alerting managing tool
+Rails,Adopt,Languages & Frameworks,No,Web framework for ruby components. This is the default choice
+Hanami,Hold,Languages & Frameworks,No,Web framework for ruby components. Used only on core.
+Spring,Adopt,Languages & Frameworks,No,Web and DI framework for kotlin components. This should be the default option.
+Typescript,Adopt,Languages & Frameworks,No,used in frontend and BFF applications. This should be the default option.
+Docker,Adopt,Platform,No,"Doc - Docker is an open platform for developing, shipping, and running applications. With Docker, you can manage your infrastructure in the same ways you manage your applications."
+Docker Compose,Adopt,Platform,No,"Doc - Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services."
+Dbeaver,Adopt,Dev Tools,No,Doc - DBeaver is a universal database management tool for everyone who needs to work with data in a professional way.
+Visual Studio Code,Adopt,Dev Tools,No,"Doc - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. "
+aws-vault,Adopt,Platform,No,Doc - AWS Vault is a tool to securely store and access AWS credentials in a development environment.
+AWS Glue,Adopt,Platform,No,"Doc - AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development."
+Redash,Adopt,Platform,No,Doc - Redash is an open source business intelligence web application
+Metabase,Adopt,Platform,No,Doc - Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data
+Tableau,Adopt,Platform,No,Doc - Tableau is a visual analytics platform that want to transform the way people use data to solve problems.
+AWS EMR Studio,Adopt,Platform,No,"Doc - EMR Studio is an integrated development environment (IDE) that makes it easy for data scientists and data engineers to develop, visualize, and debug data engineering and data science applications written in R, Python, Scala, and PySpark."

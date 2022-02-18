@@ -23,29 +23,29 @@ Cloudwatch Logs,Adopt,Platform,No,"Cloudwatch Logs, the AWS native logging platf
 Elixir,Hold,Languages & Frameworks,Yes,Elixir was used by Bcredi developers but we don't recommend new applications or services to be written in Elixir because it doesn't have a large community or tooling support
 Kotlin,Adopt,Languages & Frameworks,No,Kotlin is the main programming language used in Creditas
 Node.js,Trial,Languages & Frameworks,No,
-Sagemaker notebooks,Adopt,Data,Yes,
-MLflow,Adopt,Data,No,
-Python,Adopt,Languages & Frameworks,No,
-Airflow,Adopt,Data,No,"Doc - Airflow is a platform to programmatically author, schedule and monitor workflows."
-Kafka,Adopt,Data,No,
-KSQLDB,Adopt,Data,Yes,
-Kibana,Adopt,Data,Yes,
-Prometheus,Adopt,Data,Yes,
-RDS,Adopt,Data,Yes,
-Neptune,Adopt,Data,Yes,
-Apache Hudi,Adopt,Data,Yes,
-Apache Spark,Adopt,Data,No,
-EMR,Adopt,Data,No,
-Redshift,Adopt,Data,No,
-S3,Adopt,Data,No,
-FEAST,Adopt,Data,Yes,
-scikit-learn,Adopt,Data,No,
-alibi-detect,Adopt,Data,Yes,
-scikit-multiflow,Adopt,Data,Yes,
-LightGBM,Adopt,Data,No,
-Grafana,Adopt,Data,Yes,
-Superset,Hold,Data,No,
-EKS,Adopt,Platform,No,
+Sagemaker notebooks,Adopt,Data Management,Yes,"An <a href=""https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html"">Amazon SageMaker</a> notebook instance is a machine learning (ML) compute instance running the Jupyter Notebook App"
+MLflow,Adopt,Data Management,No,"<a href=""https://mlflow.org/"">MLflow</a> is an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry."
+Python,Adopt,Languages & Frameworks,No,Doc - Python is an interpreted high-level general-purpose programming language.
+Airflow,Adopt,Data Management,No,"<a href=""https://airflow.apache.org/docs/apache-airflow/stable/index.html"">Airflow</a> is a platform to programmatically author, schedule and monitor workflows."
+Kafka,Adopt,Data Management,No,"<a href=""https://kafka.apache.org/"">Apache Kafka</a> is an open-source distributed event streaming platform used or high-performance data pipelines, streaming analytics, data integration, and mission-critical applications."
+ksqlDB,Adopt,Data Management,Yes,"<a href=""https://www.confluent.io/product/ksql/"">ksqlDB</a> is built on top of Kafka Streams, a lightweight, powerful Java library for enriching, transforming, and processing real-time streams of data."
+Kibana,Adopt,Data Management,Yes,"<a href=""https://www.elastic.co/kibana/"">Kibana</a> is a data visualization dashboard software for Elasticsearch."
+Prometheus,Adopt,Data Management,Yes,"<a href=""https://prometheus.io/>Prometheus</a> is a software application used for event monitoring and alerting."
+RDS,Adopt,Data Management,Yes,"<a href=""https://aws.amazon.com/rds/"">Amazon Relational Database Service</a> is a distributed relational database service by Amazon Web Services. "
+Neptune,Adopt,Data Management,Yes,"<a href=""https://aws.amazon.com/neptune/"">Amazon Neptune</a> is a fast, fully managed database service powering graph use cases such as identity graphs, knowledge graphs, and fraud detection."
+Apache Hudi,Adopt,Data Management,Yes,"<a href=""https://hudi.apache.org/"">Hudi</a> is a rich platform to build streaming data lakes with incremental data pipelines  on a self-managing database layer, while being optimized for lake engines and regular batch processing."
+Apache Spark,Adopt,Data Management,No,"<a href=""https://spark.apache.org/"">Apache Spark</a> is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters."
+EMR,Adopt,Data Management,No,"<a href=""https://aws.amazon.com/emr/"">EMR<?a> is a cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning (ML) applications using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+Redshift,Adopt,Data Management,No,"<a href=""https://aws.amazon.com/redshift/"">Amazon Redshift</a> is a data warehouse product."
+S3,Adopt,Data Management,No,"<a href=""https://aws.amazon.com/s3/"">Amazon S3</a> or Amazon Simple Storage Service is a service offered by AWS that provides object storage through a web service interface."
+FEAST,Adopt,Data Management,Yes,"<a href=""https://feast.dev/"">Feast</a> is an open-source feature store."
+scikit-learn,Adopt,Data Management,No,"<a href=""https://scikit-learn.org/stable/"">Scikit-learn</a> is a free software machine learning library for the Python programming language."
+alibi-detect,Adopt,Data Management,Yes,"<a href=""https://docs.seldon.io/projects/alibi-detect/en/stable/"">Alibi Detect</a> is an open source Python library focused on outlier, adversarial and drift detection."
+scikit-multiflow,Adopt,Data Management,Yes,"<a href=""https://scikit-multiflow.github.io/"">scikit-multiflow</a> is a machine learning package for streaming data in Python."
+LightGBM,Adopt,Data Management,No,"<a href=""https://lightgbm.readthedocs.io/en/latest/"">LightGBM</a>, short for Light Gradient Boosting Machine, is a free and open source distributed gradient boosting framework for machine learning."
+Grafana,Adopt,Data Management,Yes,"<a href=""https://grafana.com/"">Grafana</a> is a multi-platform open source analytics and interactive visualization web application."
+Superset,Hold,Data Management,No,"<a href=""https://superset.apache.org/"">Apache Superset</a> is an open-source software cloud-native application for data exploration and data visualization able to handle data at petabyte scale. "
+EKS,Adopt,Platform,No,"<a href=""https://aws.amazon.com/eks/"">Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service from AWS, and it's used as the foundation for our <b>Nucleon</b> platform"
 React.js,Adopt,Languages & Frameworks,No,The main framework to build frontend applications at Creditas
 React Native,Adopt,Languages & Frameworks,No,The main framework to build mobile applications at Creditas
 GKE,Hold,Platform,Yes,"A Kubernetes service managed by Google Cloud, used on Bcredi's services ecosystem"
@@ -53,18 +53,18 @@ Ambassador,Hold,Platform,Yes,An API Gateway used on Bcredi's services ecosystem
 RabbitMQ,Hold,Platform,Yes,RabbitMQ is an open source message broker used on Bcredi's services ecosystem to communication between services
 KeyCloak,Hold,Platform,Yes,Keycloak is an open source identity and access management solution used on Bcredi's services ecosystem
 Linkerd,Hold,Platform,Yes,"Linkerd is a service mesh for Kubernetes used on Bcredi's services ecosystem to makes running services easier and safer by giving runtime debugging, observability, reliability, and security, all without requiring any changes to the code."
-Google Cloud SQL (PostgreSQL),Hold,Data,Yes,"PostgreSQL database service managed by Google Cloud, used on Bcredi's services ecosystem"
+Google Cloud SQL (PostgreSQL),Hold,Data Management,Yes,"PostgreSQL database service managed by Google Cloud, used on Bcredi's services ecosystem"
 Sendgrid,Hold,Platform,Yes,"E-mail service provider, it was used on Bcredi's services ecosystem to sends e-mails to customers"
 InfoBip,Hold,Platform,Yes,"SMS service provider, it was used on Bcredi's services ecosystem to sends SMS to customers"
 Salesforce Creditas,Assess,Platform,Yes,Salesforce at Creditas still being implemented
 Salesforce Bcredi,Hold,Platform,Yes,The main backoffice tool for Bcredi operations
 Ruby,Adopt,Languages & Frameworks,No,Core & External Data & Servicing & Authentication & AutoFin Backend systems
-Sidekiq,Adopt,Platform,No,Message system for ruby components. This is default option
+Sidekiq,Adopt,Languages & Frameworks,No,Message system for ruby components. This is default option
 BFF,Adopt,Languages & Frameworks,No,Backend end for frontend. Mobile and backoffice system uses this pattern to call our domain / components apis
 Apollo,Adopt,Languages & Frameworks,No,Framework to implement BFF as GraphQL
 GraphQL,Adopt,Languages & Frameworks,No,Pattern to expose API into a BFF
-RDS - Postgres,Adopt,Data,No,PostgreSQL database service managed by AWS. Used in most of Creditas components
-Mongo Atlas,Adopt,Data,No,Mongo managed database by Atlas service. Used in some components of creditas
+RDS - Postgres,Adopt,Data Management,No,PostgreSQL database service managed by AWS. Used in most of Creditas components
+Mongo Atlas,Adopt,Data Management,No,Mongo managed database by Atlas service. Used in some components of creditas
 AWS Lambda,Hold,Platform,No,Not supported by Nuclen / Cliditas. Used in most Product Hacking systems.
 Camunda,Adopt,Platform,No,BPMS engine to support statefull workflows.
 Drools,Assess,Platform,Yes,BREs engine to support business rules strategy. It's been assessed by the Store team.
@@ -78,8 +78,8 @@ Docker Compose,Adopt,Platform,No,"Doc - Compose is a tool for defining and runni
 Dbeaver,Adopt,Dev Tools,No,Doc - DBeaver is a universal database management tool for everyone who needs to work with data in a professional way.
 Visual Studio Code,Adopt,Dev Tools,No,"Doc - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. "
 aws-vault,Adopt,Platform,No,Doc - AWS Vault is a tool to securely store and access AWS credentials in a development environment.
-AWS Glue,Adopt,Platform,No,"Doc - AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development."
-Redash,Adopt,Platform,No,Doc - Redash is an open source business intelligence web application
-Metabase,Adopt,Platform,No,Doc - Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data
-Tableau,Adopt,Platform,No,Doc - Tableau is a visual analytics platform that want to transform the way people use data to solve problems.
-AWS EMR Studio,Adopt,Platform,No,"Doc - EMR Studio is an integrated development environment (IDE) that makes it easy for data scientists and data engineers to develop, visualize, and debug data engineering and data science applications written in R, Python, Scala, and PySpark."
+AWS Glue,Adopt,Data Management,No,"Doc - AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development."
+Redash,Adopt,Data Management,No,Doc - Redash is an open source business intelligence web application
+Metabase,Adopt,Data Management,No,Doc - Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data
+Tableau,Adopt,Data Management,No,Doc - Tableau is a visual analytics platform that want to transform the way people use data to solve problems.
+AWS EMR Studio,Adopt,Data Management,No,"Doc - EMR Studio is an integrated development environment (IDE) that makes it easy for data scientists and data engineers to develop, visualize, and debug data engineering and data science applications written in R, Python, Scala, and PySpark."
